@@ -30,6 +30,16 @@ Create a new button in the Total Commander button bar:
     ```text
     termux:/data/data/com.termux/files/home/.termux/scripts/universal_exec.sh %P%N
     ```
+### 3. How to Use in Total Commander
+
+Once the button is configured, the workflow is seamless:
+
+1.  **Navigate** to your project folder using Total Commander.
+2.  **Select** the file you want to run (e.g., `myscript.py`, `deploy.sh`) by tapping its icon or name so it gets highlighted.
+3.  **Tap** the new "Universal Launcher" button you created in the toolbar.
+4.  **Done!** Termux will open automatically and execute your script using the correct interpreter.
+
+*Supported extensions: `.sh` (Bash), `.py` (Python), `.js` (Node.js).*
 
 ## 📄 License
 MIT License
