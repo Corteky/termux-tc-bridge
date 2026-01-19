@@ -24,7 +24,7 @@ chmod +x ~/.termux/scripts/universal_exec.sh
 
 ### 2. Configure Total Commander Button
 Create a new button in the Total Commander button bar:
-* **Function type:** `Launch app` (Main function)
+* **Function type:** `View file with app` (Search "Termux" in list)
 * **Command:** `com.termux/.app.TermuxActivity`
 * **Parameters:**
     ```text
