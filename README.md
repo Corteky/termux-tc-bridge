@@ -58,6 +58,6 @@ The script comes pre-configured for **Bash**, **Python**, and **Node.js**. If yo
         echo -e "${GREEN}[EXEC] Ruby script detected...${NC}"
         ruby "$TARGET"
         ;;
-
+```
 ## 📄 License
 MIT License
