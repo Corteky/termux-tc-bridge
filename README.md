@@ -41,5 +41,23 @@ Once the button is configured, the workflow is seamless:
 
 *Supported extensions: `.sh` (Bash), `.py` (Python), `.js` (Node.js).*
 
+### 4. Customization: Adding New Languages
+
+The script comes pre-configured for **Bash**, **Python**, and **Node.js**. If you want to add support for other languages (e.g., Ruby, Perl, Lua), you can easily edit the `universal_exec.sh` file.
+
+1.  Open the script in Termux:
+    ```bash
+       nano ~/.termux/scripts/universal_exec.sh
+    ```
+2.  Locate the `case "$TARGET" in` block.
+3.  Add your new extension pattern and the corresponding interpreter command.
+
+**Example: Adding Ruby support**
+```bash
+    *.rb)
+        echo -e "${GREEN}[EXEC] Ruby script detected...${NC}"
+        ruby "$TARGET"
+        ;;
+
 ## 📄 License
 MIT License
